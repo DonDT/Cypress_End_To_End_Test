@@ -66,3 +66,4 @@ describe("Todo UI testing", () => {
 
 // Adding a tag
 // npx cypress run --record --key f46c7c5f-c593-469b-937b-ae633ea72e3b --spec cypress/integration/ui/todos.specs.js  --tag "todos us"
+//
