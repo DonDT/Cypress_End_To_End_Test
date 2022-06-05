@@ -13,7 +13,7 @@ stages {
     }
   }
 
-stages {
+stage {
     stage('Build and test'){
       steps {
         sh "npm run build:and:test"
