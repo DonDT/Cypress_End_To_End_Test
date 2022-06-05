@@ -1,26 +1,5 @@
 {
-  "todos": [
-    {
-      "name": "todo One Two Three",
-      "isComplete": false,
-      "id": 1
-    },
-    {
-      "name": "todo One Two Three",
-      "isComplete": false,
-      "id": 2
-    },
-    {
-      "name": "todo One Two Three",
-      "isComplete": false,
-      "id": 3
-    },
-    {
-      "name": "todo One Two",
-      "isComplete": true,
-      "id": 4
-    }
-  ],
+  "todos": [],
   "users": [
     {
       "email": "olivier@mail.com",
