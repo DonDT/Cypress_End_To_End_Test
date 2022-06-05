@@ -1,5 +1,5 @@
 pipeline {
-  agent{
+  agent {
     docker {
       image 'cypress/base:16.13.0'
       args '-u root:root'
@@ -11,9 +11,7 @@ stages {
         sh "npm install"
       }
     }
-  }
 
-stage {
     stage('Build and test'){
       steps {
         sh "npm run build:and:test"
